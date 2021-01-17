@@ -20,8 +20,8 @@ export const HeaderContainer = styled.div`
 		top: 11px;
 		left: 0;
 		z-index: -1;
-		background: linear-gradient(270deg, #DE13FF 38.32%, #F44F8B 50%);
-		box-shadow: 0px 4px 4px rgba(248, 27, 173, 0.25);
+		background: linear-gradient(270deg, #5A3E92 0%, #834399 100%);
+		box-shadow: 0px 4px 4px rgba(131, 67, 153, 0.33);
 		border-radius: 11px;
 	}
 `

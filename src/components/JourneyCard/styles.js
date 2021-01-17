@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
 export const JourneyContainer = styled.div`
-	background: ${(props) => props.bg || 'linear-gradient(270deg, #CC13EA, #F81BAD)'};
-	padding: 26px 25px;
+	background: ${(props) => props.bg || 'linear-gradient(270deg, #5A3E92 0%, #834399 100%)'};
+	padding: 26px 40px;
 	margin: 12px 9px;
 	color: white;
 	text-align: center;
