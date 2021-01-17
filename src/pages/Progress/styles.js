@@ -60,3 +60,32 @@ export const CircularGradient = styled.div`
 		margin-left: -1.2em;
 	 };
 `;
+
+export const Name = styled.h1`
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	display: block;
+	text-align: center;
+	color: black;
+	font-weight: 500;
+`;
+
+export const Detail = styled.h2`
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	display: block;
+	text-align: center;
+	color: black;
+	font-weight: 500;
+	font-size: 1em;
+`;
+
+export const Balance = styled.h3`
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	margin-top: 15px;
+	display: block;
+	text-align: center;
+	color: black;
+	font-weight: 500;
+`;
