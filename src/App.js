@@ -10,6 +10,7 @@ import LoginPage from './pages/Login';
 import PhotosPage from './pages/Photos';
 import GalleryPage from './pages/Photos/Gallery';
 import SchedulePage from './pages/Photos/Schedule';
+import ProgressPage from './pages/Progress';
 
 // we need to map the `scale` prop we define below
 // to the transform style property
@@ -66,6 +67,7 @@ const App = () => {
 					<Route exact path='/photos' component={PhotosPage} />
 					<Route path='/photos/gallery' component={GalleryPage} />
 					<Route path='/photos/schedule' component={SchedulePage} />
+					<Route exact path='/progress' component={ProgressPage} />
 				</AnimatedSwitch>
 			</Router>
       
