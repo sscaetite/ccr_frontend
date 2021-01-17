@@ -24,4 +24,4 @@ export const HeaderContainer = styled.div`
 		box-shadow: 0px 4px 4px rgba(131, 67, 153, 0.33);
 		border-radius: 11px;
 	}
-`
+`;

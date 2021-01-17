@@ -1,4 +1,5 @@
-import {Card, CardsContainer, Title, Icon, MainCard} from "./styles";
+import React from 'react';
+import {Card, CardsContainer, Title, Icon, MainCard} from './styles';
 import logo from '../../assets/vector/via_perifa_logo.svg';
 import {GiJourney} from 'react-icons/gi';
 import {FaChessKnight, FaMapMarkedAlt, FaStore, FaBookmark} from 'react-icons/fa';
@@ -11,7 +12,7 @@ const HomePage = () => {
 				<img src={logo} alt="Via Perifa Logo" />
 				<div>
 					<h2>Olá,</h2>
-					<h1>Samuel!</h1>
+					<h1>{localStorage.getItem('user')}!</h1>
 				</div>
 			</MainCard>
 			<CardsContainer>
@@ -46,7 +47,7 @@ const HomePage = () => {
 				</Card>
 			</CardsContainer>
 		</div>
-	)
-}
+	);
+};
 
 export default HomePage;
