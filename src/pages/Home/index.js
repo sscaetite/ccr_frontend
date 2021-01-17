@@ -27,7 +27,7 @@ const HomePage = () => {
 				</Card>
 
 				<Card to='/journey'>
-					<Icon><FaBookmark /></Icon>
+					<Icon size='3.6em'><FaBookmark /></Icon>
 					<Title>Referências</Title>
 				</Card>
 
@@ -36,12 +36,12 @@ const HomePage = () => {
 					<Title>Indicações</Title>
 				</Card>
 
-				<Card to='/journey'>
+				<Card to='/photos'>
 					<Icon><MdPhotoLibrary /></Icon>
 					<Title>Fotos</Title>
 				</Card>
 
-				<Card to='/journey'>
+				<Card to='/photos'>
 					<Icon><FaStore /></Icon>
 					<Title>Lojas</Title>
 				</Card>

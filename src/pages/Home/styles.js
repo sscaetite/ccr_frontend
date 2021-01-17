@@ -12,6 +12,7 @@ export const Card = styled(Link)`
 	border-radius: 4px;
 	color: black;
 	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
 `;
 
 export const CardsContainer = styled.div`
@@ -34,7 +35,7 @@ export const Title = styled.h3`
 export const Icon = styled.div`
 	display: flex;
 	justify-content: center;
-	font-size: 3.8em;
+	font-size: ${(props) => props.size || '3.8em'};
 	margin-bottom: 10px;
 	color: #5A3E92;
 `;

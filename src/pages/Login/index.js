@@ -7,7 +7,10 @@ const LoginPage = () => {
 		<MainContainer>
 			<FormLogin>
 				<img src={logo} alt='Via Perifa logo' />
-				<Input placeholder='seu nome' onChange={(e)=>localStorage.setItem('user', e.target.value)} />
+				<Input 
+					placeholder='seu nome'
+					onChange={(e)=>localStorage.setItem('user', e.target.value)}
+				/>
 				<Divider />
 				<Input placeholder='sua senha' type='password' />
 				<Button to='/'>Login</Button>
