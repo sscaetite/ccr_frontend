@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Header from '../../components/Header';
-import {Selector} from './styles';
+import {Selector, Place, PlacesContainer} from './styles';
+import places from '../../services/placesAPI_MOCK';
 
 const IndicationsPage = () => {
 
@@ -19,6 +20,14 @@ const IndicationsPage = () => {
 					onClick={() => setActive(1)}
 				>Espaço Maker</h4>
 			</Selector>
+			<PlacesContainer>
+				{places.map((place, index) => place.type ===  active && (
+					<Place key={index} url={place.url}>
+						<div />
+						<h5>{place.name}</h5>
+					</Place>
+				))}
+			</PlacesContainer>
 		</>
 	);
 };
