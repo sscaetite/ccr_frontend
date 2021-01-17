@@ -9,7 +9,9 @@ const styleIcon = {position: 'absolute', left: 0, top: 0, padding: 30};
 const Header = ({children, to}) => {
 	return(
 		<HeaderContainer>
-			<Link style={{margin: 0, padding: 0}} to={to || '/'}><IoChevronBack style={styleIcon} /></Link>
+			<Link style={{margin: 0, padding: 0}} to={to || '/'}>
+				<IoChevronBack style={styleIcon} />
+			</Link>
 			{children}
 		</HeaderContainer>
 	);
