@@ -21,9 +21,9 @@ const HomePage = () => {
 					<Title>Jornada</Title>
 				</Card>
 
-				<Card to='/journey'>
+				<Card to='/progress'>
 					<Icon><FaChessKnight /></Icon>
-					<Title>Pontuação</Title>
+					<Title>Progresso</Title>
 				</Card>
 
 				<Card to='/journey'>
