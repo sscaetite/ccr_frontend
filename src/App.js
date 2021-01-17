@@ -7,6 +7,9 @@ import './App.css';
 import React, {useEffect} from 'react';
 import {handleSession} from './utils/SessionHandler';
 import LoginPage from './pages/Login';
+import PhotosPage from './pages/Photos';
+import GalleryPage from './pages/Photos/Gallery';
+import SchedulePage from './pages/Photos/Schedule';
 
 // we need to map the `scale` prop we define below
 // to the transform style property
@@ -60,6 +63,9 @@ const App = () => {
 					<Route exact path='/' component={HomePage} />
 					<Route path='/journey' component={JourneyPage} />
 					<Route path='/login' component={LoginPage} />
+					<Route exact path='/photos' component={PhotosPage} />
+					<Route path='/photos/gallery' component={GalleryPage} />
+					<Route path='/photos/schedule' component={SchedulePage} />
 				</AnimatedSwitch>
 			</Router>
       

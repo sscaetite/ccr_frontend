@@ -2,7 +2,9 @@ import styled from 'styled-components';
 
 export const HeaderContainer = styled.div`
 	background-color: white;
+	width: 100vw;
 	padding: 25px 10px;
+	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.2em;
 	letter-spacing: 0.16em;
