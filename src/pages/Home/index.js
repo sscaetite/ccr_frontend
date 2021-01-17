@@ -36,7 +36,7 @@ const HomePage = () => {
 					<Title>Referências</Title>
 				</Card>
 
-				<Card to='/'>
+				<Card to='/indications'>
 					<Icon><FaMapMarkedAlt /></Icon>
 					<Title>Indicações</Title>
 				</Card>
