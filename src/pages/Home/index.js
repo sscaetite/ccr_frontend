@@ -2,7 +2,12 @@ import React from 'react';
 import {Card, CardsContainer, Title, Icon, MainCard} from './styles';
 import logo from '../../assets/vector/via_perifa_logo.svg';
 import {GiJourney} from 'react-icons/gi';
-import {FaChessKnight, FaMapMarkedAlt, FaStore, FaBookmark} from 'react-icons/fa';
+import {
+	FaChessKnight,
+	FaMapMarkedAlt,
+	// FaStore,
+	FaBookmark
+} from 'react-icons/fa';
 import {MdPhotoLibrary} from 'react-icons/md';
 
 const HomePage = () => {
@@ -26,12 +31,12 @@ const HomePage = () => {
 					<Title>Progresso</Title>
 				</Card>
 
-				<Card to='/journey'>
+				<Card to='/'>
 					<Icon size='3.6em'><FaBookmark /></Icon>
 					<Title>Referências</Title>
 				</Card>
 
-				<Card to='/journey'>
+				<Card to='/'>
 					<Icon><FaMapMarkedAlt /></Icon>
 					<Title>Indicações</Title>
 				</Card>
@@ -39,11 +44,6 @@ const HomePage = () => {
 				<Card to='/photos'>
 					<Icon><MdPhotoLibrary /></Icon>
 					<Title>Fotos</Title>
-				</Card>
-
-				<Card to='/photos'>
-					<Icon><FaStore /></Icon>
-					<Title>Lojas</Title>
 				</Card>
 			</CardsContainer>
 		</div>
