@@ -1,8 +1,8 @@
 import {JourneyContainer} from './styles';
 
-const JourneyCard = ({children, ...props}) => {
+const JourneyCard = ({children, after, ...props}) => {
 	return(
-		<JourneyContainer {...props}>{children}</JourneyContainer>
+		<JourneyContainer after={after} {...props}>{children}</JourneyContainer>
 	);
 };
 
