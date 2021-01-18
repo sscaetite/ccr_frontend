@@ -29,7 +29,7 @@ const ProgressPage = () => {
 			<Header right={{to: '/progress/highscores'}}>Seu progresso</Header>
 			<ProgressContainer>
 				<CircularGradient
-					percent={90}
+					percent={68}
 					// eslint-disable-next-line max-len
 					url='https://cdn.pixabay.com/photo/2017/11/02/20/31/guitars-2912447__340.jpg'
 				>
@@ -37,7 +37,7 @@ const ProgressPage = () => {
 						<div>2</div>
 					</div>
 				</CircularGradient>
-				<Name>Nicolly</Name>
+				<Name>{localStorage.getItem('user')}</Name>
 				<Detail>São Paulo - SP</Detail>
 				<Balance><RiCoinsLine /> 500</Balance>
 			</ProgressContainer>

@@ -8,6 +8,7 @@ import {
 	// FaStore,
 	FaBookmark
 } from 'react-icons/fa';
+import {HiLogout} from 'react-icons/hi';
 import {MdPhotoLibrary} from 'react-icons/md';
 
 const HomePage = () => {
@@ -44,6 +45,11 @@ const HomePage = () => {
 				<Card to='/photos'>
 					<Icon><MdPhotoLibrary /></Icon>
 					<Title>Fotos</Title>
+				</Card>
+
+				<Card to='/login'>
+					<Icon><HiLogout /></Icon>
+					<Title>Sair</Title>
 				</Card>
 			</CardsContainer>
 		</div>
