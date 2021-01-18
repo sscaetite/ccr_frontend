@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Via Perifa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![](https://raw.githubusercontent.com/sscaetite/ccr_frontend/main/src/assets/img/via_perifa_cover.jpg)
 
-## Available Scripts
+Este projeto foi criado usando o  [Create React App](https://github.com/facebook/create-react-app).
 
-In the project directory, you can run:
+## Sobre o Via Perifa
+**GERE RENDA: Descobrindo, Aprendendo, Criando Com o Via Perifa**
+
+Desenvolvido para os jovens de 16 a 24 anos, de classe C, D e E, moradores das periferias brasileiras - que tentam ter uma fonte de renda estável e fazer o que gostam, mas não possuem qualificação necessária, e, se sentem sem um propósito claro, noção dos próximos passos e em desvantagem em relação as demais pessoas.
+
+Criamos o Via Perifa, uma plataforma gamificada-orientativa e espaço de visibilidade. Ajudando o jovem a definir uma meta para iniciar ou continuar um negócio e o guiamos para os próximos passos, concedendo um espaço com visibilidade para expor e vender seus produtos - se este segue a jornada proposta e desbloqueia novos níveis. Ao invés de só apresentar a teoria, nosso sistema instrui e incentiva a execução do aprendizado, motivado por recompensas e pessoas de referência.
+
+### Funcionalidades
+- Jornada gamificada no desenvolvimento do seu negócio
+- Acompanhamento em tempo real da sua evolução na plataforma
+- Recompensas relacionadas ao seu nível de engajamento
+- Agendamento de sessão de fotos (para seus produtos) com profissionais
+- Meio de contato com nossa rede de apoiadores
+- Integração físico-virtual
+
+## Script recomendado
+
+No diretório raiz do projeto, você pode executar o comando:
 
 ### `yarn start`
+ou
+### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Irá executar a aplicação em modo de desenvolvimento
+Abra [http://localhost:3000](http://localhost:3000) para visualizá-la no navegador.
