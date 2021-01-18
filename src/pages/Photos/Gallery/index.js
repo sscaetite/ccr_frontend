@@ -24,14 +24,16 @@ const GalleryPage = () => {
 			<Column>
 				<Image>
 					{images.map((image, index) => (
-						(index + 2 ) % 2 === 0 ? <ImageCard key={index} src={image.url} /> : null
+						(index + 2 ) % 2 === 0 ? 
+							<ImageCard key={index} src={image.url} /> : null
 					))}
 				</Image>
 			</Column>
 			<Column>
 				<Image>
 					{images.map((image, index) => (
-						(index + 2 ) % 2 === 1 ? <ImageCard key={index} src={image.url} /> : null
+						(index + 2 ) % 2 === 1 ? 
+							<ImageCard key={index} src={image.url} /> : null
 					))}
 				</Image>
 			</Column>
